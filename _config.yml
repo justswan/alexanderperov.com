@@ -1,0 +1,28 @@
+title: Alexander Perov
+email: alexander@alexanderperov.com
+description: >-
+  Student, artist, and curious person.
+
+baseurl: ""
+url: "https://alexanderperov.com"
+
+theme: minima
+
+# Навигация — какие страницы показывать в меню
+header_pages:
+  - about.md
+  - writing.md
+
+# Настройки minima
+minima:
+  skin: classic
+  date_format: "%B %-d, %Y"
+
+# Социальные ссылки (minima умеет их рендерить в footer)
+# Раскомментируй нужное:
+# twitter_username: yourhandle
+# instagram_username: yourhandle
+# github_username: yourhandle
+
+plugins:
+  - jekyll-feed
